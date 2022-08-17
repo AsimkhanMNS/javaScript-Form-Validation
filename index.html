@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JavaScript form validation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- FORM -->
+    <div class="container form mt-5">
+        <div class="shadow p-3 mb-5 bg-body rounded">
+            <p class="text-center text">Contact Form Validation</p>
+            <div class="line"></div>
+            <div id="popup"></div>
+            <form name="myForm" action="">
+                <div class="mb-3" id="alert1">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <div class="d-flex">
+                        <input type="text" name="name" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Name">
+                        <div id="icon1">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="alert2">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <div class="d-flex">
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Email">
+                        <div id="icon2">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="alert3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <div class="d-flex">
+                        <input type="tel" name="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Number">
+                        <div id="icon3">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="alert4">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <div class="d-flex">
+                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter Your Message"></textarea>
+                        <div id="icon4">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-1 d-grid">
+                    <button type="button" id="btn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- FORM END -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <!-- JS FILE -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
